@@ -10,7 +10,7 @@ This is the official library of mongo builds for Singularity images hosted on Si
 ## Local Generation
 First, clone the repo.
 
-      git clone https://www.github.com/singularituhub/mongo
+      git clone https://www.github.com/singularityhub/mongo
       cd mongo/docker
       
 Then, on your local machine, create an empty image for the mongo database
