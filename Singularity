@@ -1,6 +1,5 @@
 Bootstrap: docker
 From: mongo:latest
 
-%runscript
-
-exec /entrypoint.sh "$@"
+%startscript
+exec /usr/bin/mongo "$@"
